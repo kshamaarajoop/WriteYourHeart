@@ -8,7 +8,9 @@ app.use(express.static("public"))
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/",(req,res)=>{
-  res.render("index.ejs",{writeUP: writeUp})
+  var  writeUp=""
+  var lisLen=writeList.length  
+  res.render("index.ejs",{writeUP: writeUp,ListLen:lisLen,WriteList:writeList})
 })
 
 app.listen(port,()=>{
