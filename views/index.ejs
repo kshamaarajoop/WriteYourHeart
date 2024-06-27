@@ -1,0 +1,12 @@
+<%- include("partials/header") %>
+<form action="/create-post" method="POST">
+  <input type="submit" id="createBtn" value="Create Post" class="postBtn">
+</form>
+<div>
+  <% if (typeof writeUP !== 'undefined') { %>
+    <% for(let i=0;i<WriteList.length;i++){ %>
+    <p class="textarea"><%= WriteList[i] %></p>
+<% }} %>
+</div>
+<%- include("partials/footer") %>
+

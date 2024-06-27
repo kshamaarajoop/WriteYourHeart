@@ -1,0 +1,75 @@
+body{
+  background-color: hwb(0 72% 27%);
+}
+footer{
+  background-color: #757575;
+  margin: none;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+header{
+  background-color: #757575;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  
+}
+.writeSpace{
+  margin-top: 6rem;
+  margin-left: 10rem;
+}
+
+.name{
+  display: inline;
+  margin-left: 1rem;
+  font-size: x-large;
+  grid-column:1/2 ;
+}
+.butt{
+  display: flex;
+  justify-self:flex-start;
+  justify-content: space-around;  
+  margin-bottom: 0%;
+  margin-left: 2rem;
+  gap: 2rem;
+}
+.navi{
+  
+  background-color: #757575;
+  border: none;
+  cursor: pointer;
+  font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+  margin-bottom: none;
+}
+.postBtn{
+  color: rgb(10, 3, 16);
+  position: absolute;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 25px;
+  margin-top: 12rem;
+  size: 8rem;
+  font-size:1.3rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  position: fixed;
+  cursor: pointer;
+
+ 
+}
+.textarea{
+  margin-top: 100px;
+}
